@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::selection {
+    color: white;
+    background-color: #00d0aa;
+}
+
+/*
+    #00d0aa     light blue
+    #004cff     blue
+    #1b1b1b     black
+    #e6d600     gold
+*/
+body {
+    overflow-x: hidden;
+    background-color: #fff;
+}
+
+
+
+.who {
+    position: relative;
+    top: 130px;
+    left: 100px;
+    width: 80%;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: bold;
+    word-spacing: 5px;
+}
+
+img {
+    width: 80%;
+    margin-left: 10%;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+
+header {
+    width: 100%;
+    color: #00d0aa;
+    background-color: #1b1b1b;
+    position: fixed;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    margin: auto;
+}
+
+.logo1 {
+    color: #00d0aa;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.logo2 {
+    color: #e6d600;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    color: #00d0aa;
+    transition: 1s ease;
+}
+
+nav a:hover {
+    background-color: #00d0aa;
+    color: black;
+    box-shadow: inset 10em 0 0 0 #00d0aa;
+}
+
+caption {
+    color: #dacb02;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+
+
+.windows table,
+.linux table {
+    position: relative;
+    top: 180px;
+    width: 100%;
+    color: #00d0aa;
+    border-collapse: collapse;
+    border: solid 1px #00d0aa;
+    /* margin: 50px 0; */
+}
+
+.windows thead th,
+.linux thead th {
+    color: rgb(4, 0, 255);
+    font-size: 30px;
+    text-transform: capitalize;
+    padding: 10px 0px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: 1px solid;
+    border-color: #5000d0;
+}
+
+.windows tbody td,
+.linux tbody td {
+    font-size: 25px;
+    border-bottom: white;
+    border: 1px solid;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+
+.windows tr:hover,
+.linux tr:hover {
+    background-color: gray;
+    cursor: default;
+    color: white;
+}
+
+
+.line {
+    border: none;
+    height: 4px;
+    background: red;
+    margin: 40px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-top: 400px;
+}
+
+
+footer {
+    position: relative;
+    top: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 30px 0;
+}
+
+.container {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.container .social {
+    padding: 10px 20px;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.container .social:hover {
+    color: #00d0aa;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+table tbody {
+    color: black;
+    font-weight: bold;
+}
+
+table thead {
+    background-color: white;
+}
